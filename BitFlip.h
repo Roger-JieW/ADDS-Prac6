@@ -1,7 +1,7 @@
 #ifndef BITFLIP_H
 #define BITFLIP_H
-#include "mutator.h"
-#include "individual.h"
+#include "Mutator.h"
+#include "Individual.h"
 class BitFlip : public Mutator{
     public:
     BitFlip();

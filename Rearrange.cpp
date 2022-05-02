@@ -1,7 +1,7 @@
 #include<iostream>
 #include <string>
-#include "rearrange.h"
-#include "individual.h"
+#include "Rearrange.h"
+#include "Individual.h"
 
 using namespace std;
 

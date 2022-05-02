@@ -1,7 +1,7 @@
 #ifndef BITFLIPPROB
 #define BITFLIPPROB
-#include "mutator.h"
-#include "individual.h"
+#include "Mutator.h"
+#include "Individual.h"
 class BitFlipProb : public Mutator{
     public:
     double prob;

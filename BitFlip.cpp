@@ -1,5 +1,5 @@
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 #include "BitFlip.h"
 #include "Individual.h"
 
@@ -10,8 +10,7 @@ BitFlip:: BitFlip(){};
 Individual * BitFlip:: mutate(Individual* person, int k){
 
     Individual * temp = person;
-
-    if(k<=temp->getString().length())
+    if(k <= temp->getString().length())
     {
         temp->flipBit(k-1);
     }else{
